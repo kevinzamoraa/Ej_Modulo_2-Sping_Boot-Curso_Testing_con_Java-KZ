@@ -1,4 +1,6 @@
 package com.kevinzamora.repository;
 
-public class CustomerRepository {
-}
+import com.kevinzamora.model.Customer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CustomerRepository extends JpaRepository<Customer, Long> {}
