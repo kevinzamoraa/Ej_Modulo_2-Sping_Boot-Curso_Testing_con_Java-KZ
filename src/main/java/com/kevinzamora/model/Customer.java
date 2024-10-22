@@ -10,6 +10,8 @@ import lombok.*;
 @NoArgsConstructor
 @ToString
 @Builder
+@Id
+@GeneratedValue
 public class Customer {
 
     private Long id;
